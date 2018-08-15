@@ -1,0 +1,51 @@
+body {
+  background-color: white
+  
+}
+
+
+h1 { color: black;
+
+}
+
+.grid-container {
+  display: grid; 
+  grid-template-columns: auto auto;
+  height: 600px;
+}
+
+.grid-item {
+  border: 1px solid;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+input {
+  height: 25px;
+}
+
+#main-form {
+  padding: 15px; 
+}
+
+ .preview h1{
+  padding: 15px
+}
+
+.buttons button {
+  font-size: 18px;
+}
+
+.preview p {
+  padding: 15px;
+}
+
+
+.preview {
+  background-image: url(https://i.pinimg.com/originals/57/58/56/575856ed90a2dab9ccc75d027e5e816e.jpg); 
+  
+}
