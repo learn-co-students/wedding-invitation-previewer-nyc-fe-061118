@@ -26,14 +26,14 @@
   grid-row: 2 / 3;
   grid-column: 2 / 3;
   margin-right: 20px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
 }
 
 #results {
   text-align: center;
   width: 100%;
   text-align: center;
-  margin: 25% auto 25% auto;
+  margin: 20% auto 25% auto;
 }
 
 .static-content {
@@ -50,9 +50,27 @@
 .image {
     max-width: auto;
     height: 600px;
-    background-color: black;
-    /*background: url("/Wedding-Template1.jpg") no-repeat;*/
+}
+
+#default {
+    background: url("/Wedding-Template1.jpg") no-repeat;
     background-size: contain;
+    color: #ffffcc;
+    font-family: "Source Sans Pro", Helvetica, Arial, Geneva, sans-serif;
+}
+
+#Elegant {
+  background: url("/Wedding-Template1.jpg") no-repeat;
+  background-size: contain;
+  color: #ffffcc;
+}
+
+#Summer {
+  background-color: #99ff99;
+}
+
+#Serene {
+  background-color: #ccccff;
 }
 
 form {
@@ -73,12 +91,10 @@ input {
 h1 {
   font-size: 25px;
   font-weight: 700;
-  font-family: "Source Sans Pro", Helvetica, Arial, Geneva, sans-serif;
 }
 
 #results {
   font-family: "Source Sans Pro", Helvetica, Arial, Geneva, sans-serif;
-  color: white;
 }
 
 .static-content {

@@ -13,5 +13,5 @@ $(document).ready(function() {
 })
 
 function themeSwap(event) {
-  let ButtonClicked = event.target
+  $('.image').attr('id', $(this).attr('class'))
 }
