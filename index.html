@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="wedding, invitation, planner, testing">
   <link rel="stylesheet" type="text/css" href="planner.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Lobster|Dancing+Script">
   <title>Wedding Invitation Planner</title>
 </head>
 
 <body>
   <script src="planner.js"></script>
   <h1 id = "titleDefault"> Wedding Invitation Planner! </h1>
-
+  <div class = "grid-container">
   <div id = "sheetDefault">
     <form>
     The Main Focus:<br> <input type="text" id="firstName" oninput="myFunction()"><br>
@@ -22,6 +23,28 @@
     Date:<br> <input type="text" id="date" placeholder="mm/dd/yyyy" oninput="myFunction()"><br>
     Unification Location:<br> <input type="text" id="location" oninput="myFunction()"><br>
     </form>
+    <div id="Options">
+        <div id="Summertag">
+          <p>
+          Summeresque
+          </p>
+        </div>
+        <div id="Flowertag">
+         <p>
+           Floral
+         </p>
+        </div>
+        <div id="Hearts">
+          <p>
+            Heart Explosion
+          </p>
+        </div>
+        <div id="Custom">
+          <p>
+            Custom
+          </p>
+        </div>
+      </div>
   </div>
 
   <div id = "plannerDefaultcontainer">
@@ -44,6 +67,7 @@
       <p id = "placeOf"></p>
     </div>
   </div>
+</div>
 </body>
 
 </html>
