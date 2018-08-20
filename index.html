@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <script src="planner.js"></script>
+  <div class = "wrapper">
   <h1 id = "titleDefault"> Wedding Invitation Planner! </h1>
   <div class = "grid-container">
   <div id = "sheetDefault">
@@ -25,29 +25,21 @@
     </form>
     <div id="Options">
         <div id="Summertag">
-          <p>
-          Summeresque
-          </p>
+           <button onclick="Summeresque()">Summeresque</button>
         </div>
         <div id="Flowertag">
-         <p>
-           Floral
-         </p>
+          <button onclick="Flowers()">Flowery Flowers</button>
         </div>
         <div id="Hearts">
-          <p>
-            Heart Explosion
-          </p>
+           <button onclick="Heartu()">Heart Explosion</button>
         </div>
         <div id="Custom">
-          <p>
-            Custom
-          </p>
+           <button onclick="Customimg()">Custom Image (WIP)</button>
         </div>
       </div>
   </div>
 
-  <div id = "plannerDefaultcontainer">
+  <div id = "plannerDefaultcontainer" class = "plannerChange">
     <div id = "initialBox">
       <p id = "initials"></p>
     </div>
@@ -68,6 +60,8 @@
     </div>
   </div>
 </div>
+</div>
+<script src="planner.js"></script>
 </body>
 
 </html>
