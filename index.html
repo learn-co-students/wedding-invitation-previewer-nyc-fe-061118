@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="wedding.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <script src= "./wedding.js" type= "text/javascript"></script>
     <title>
       Go On, Get Married!
@@ -20,7 +21,7 @@
   <div class= "buttons">   
    <button id="spring-layout" type="button"> Spring</button> 
    <button id="summer-layout" type="button"> Summer</button>
-   <button id="fall-layout" type="button"> Fall</button> 
+   <button id="autumn-layout" type="button"> Fall</button> 
    <button id="winter-layout" type="button"> Winter</button> 
   </div> 
       <div class="grid-container">
@@ -32,7 +33,7 @@
       <br>
       
       Firstname (Bride)<br>
-      <input type= "text" name= "firstname"> <br>
+      <input type= "text" name= "firstname-bride"> <br>
       
       <br>
       
@@ -42,33 +43,33 @@
       <br>
       
       Expected Date <br>
-      <input type="text" date= "date"> <br>
+      <input type="text" name= "expected-date"> <br>
       
       <br>
       
       Ideal Location <br>
-      <input type= "text" location= "location"> <br>
+      <input type= "text" name= "ideal-location"> <br>
       
       <br>
       
       
       </form>
       </div>
-      <div class="preview grid-item">
+      <div class="preview grid-item" id="default">
         
         <h1>Preview</h1>
       
         
         
-        <p>Firstname</p>
+        <p id= "firstname-preview-groom">What's your name?</p>
       
-        <p>Firstname</p>
+        <p id= "firstname-preview-bride">What's their name?</p>
         
-        <p>Lastname</p>
+        <p id= "lastname-preview">Future name!</p>
         
-        <p>Expected Date</p>
+        <p id= "expected-date">When you getting hitched?</p>
         
-        <p>Ideal Location</p>
+        <p id= "ideal-location">Where you getting hitched?</p>
       </div>
     </div>
     </div>

@@ -1,5 +1,5 @@
 body {
-  background-color: white
+  background-color: pink;
   
 }
 
@@ -30,6 +30,7 @@ input {
 
 #main-form {
   padding: 15px; 
+  font-family: 'Cinzel', serif;
 }
 
  .preview h1{
@@ -42,10 +43,40 @@ input {
 
 .preview p {
   padding: 15px;
-}
-
-
-.preview {
-  background-image: url(https://i.pinimg.com/originals/57/58/56/575856ed90a2dab9ccc75d027e5e816e.jpg); 
+  text-align: center;
   
 }
+.preview {
+  max-width: 635px;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+#default {
+  background-image: url(https://previews.123rf.com/images/ekina/ekina1711/ekina171102314/89136313-texture-background-pattern-the-curbstone-is-red-granite-array.jpg); 
+  background-repeat: no-repeat;
+}
+
+#spring {
+  background-image: url(https://i.ytimg.com/vi/6Ir9FSUsaLA/maxresdefault.jpg); 
+  background-repeat: no-repeat;
+}
+
+#summer {
+  background-image:url(https://assets.vogue.com/photos/58ffac51a93d5d1f4489f8ec/master/pass/00-tout-aspen-summer-off-season-guide.jpg);
+  background-repeat: no-repeat;
+}
+
+
+#autumn { background-image: url(https://www.nationaltrust.org.uk/images/1431747874883-gothic-cottage-in-autumn.jpg);
+  background-repeat: no-repeat;
+}
+
+#winter {
+  background-image: url(https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/winter-solstice.jpg?itok=atRtGo8f);
+  background-repeat: no-repeat;
+  
+}
+
+
