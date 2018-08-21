@@ -1,0 +1,84 @@
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  float: left;
+  height: 600px;
+    
+}
+.grid-item {
+  border: 2px solid;
+  padding-bottom:100px;
+  padding-top:500;
+}
+body {
+  background-color:pink;
+}
+h1{
+  text-align:center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-height: 300 px;
+}
+
+h5{
+  text-align:right;
+}
+
+p{
+  text-align:center;
+  font-style: Italic;
+  font-size: 50px;
+  
+}
+
+#Formal{
+    background-color: red;
+    font-size: 20px;
+    font-family: Italic;
+   }
+
+
+#Spring {
+background-color: grey;
+    font-size: 20px;
+    font-family: Italic;
+   }
+
+#ArtDeco{
+background-color:purple;
+    font-size: 20px;
+    font-family: Italic;
+   }
+.wrapper {
+  
+  width: 90%;
+  margin: 0 auto;
+}
+
+form {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+input {
+  height: 50px;
+  margin: 5px;
+}
+
+#preview {
+  background-color: brown;
+  height:900px;
+/*select the element with an id of preview
+ give is a blue background-color
+ you MIGHT have to give it a height of 600px */
+ 
+}
+ 
+ 
+
+
+
+
+
+
