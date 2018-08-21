@@ -18,32 +18,43 @@
 }
 
 function Summeresque(){
-document.getElementById("plannerDefaultcontainer").id = "plannerContainersummer";
-document.getElementById("initialBox").id = "initialBoxsummer";
-document.getElementById("firstNamebox").id = "firstNameboxSummer";
-document.getElementById("lastNamebox").id = "lastNameboxSummer";
-document.getElementById("dateBox").id = "dateBoxsummer";
-document.getElementById("locationBox").id = "locationBoxsummer";
+document.getElementsByClassName("plannerChange")[0].id = "plannerContainersummer";
+document.getElementById("imglink").style.visibility = "hidden";
+document.getElementById("theSurprise").style.visibility = "hidden";
 }
 
 function Flowers(){
-document.getElementById("plannerDefaultcontainer").id = "plannerContainerfloral";
-document.getElementById("initialBox").id = "initialBoxfloral";
-document.getElementById("firstNamebox").id = "firstNameboxFloral";
-document.getElementById("lastNamebox").id = "lastNameboxFloral";
-document.getElementById("dateBox").id = "dateBoxfloral";
-document.getElementById("locationBox").id = "locationBoxfloral";
+document.getElementsByClassName("plannerChange")[0].id = "plannerContainerfloral";
+document.getElementById("imglink").style.visibility = "hidden";
+document.getElementById("theSurprise").style.visibility = "hidden";
 }
 
 function Heartu(){
-document.getElementById("plannerDefaultcontainer").id = "plannerContainerheartu";
-document.getElementById("initialBox").id = "initalBoxheartu";
-document.getElementById("firstNamebox").id = "firstNameboxHeartu";
-document.getElementById("lastNamebox").id = "lastNameboxHeartu";
-document.getElementById("dateBox").id = "dateBoxheartu";
-document.getElementById("locationBox").id = "locationBoxheartu";
+document.getElementsByClassName("plannerChange")[0].id = "plannerContainerheartu";
+document.getElementById("imglink").style.visibility = "hidden";
+document.getElementById("theSurprise").style.visibility = "hidden";
 }
 
-function Customimmg(){
+function Customimg(){
+document.getElementsByClassName("plannerChange")[0].id = "plannerContainercustom";
+document.getElementById("imglink").style.visibility = "visible";
+document.getElementById("theSurprise").style.visibility = "hidden";
+}
 
+function Surprise(){
+  document.getElementById("theSurprise").style.visibility = "visible";
+  var elem = document.getElementById("theSurprise");
+  var pos = 0;
+  var pos1 = 210;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 600 ) {
+      clearInterval(id);
+    } else {
+      pos++;
+      pos1++;
+      elem.style.top = pos + 'px';
+      elem.style.left = pos1 + 'px';
+    }
+  }
 }

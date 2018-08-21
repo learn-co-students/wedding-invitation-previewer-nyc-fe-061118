@@ -27,17 +27,6 @@ form {
   margin:auto;
 }
 
-#plannerDefaultcontainer{
-  text-align:center;
-  border-style: solid;
-  border-width: 5px;
-  height: 125%;
-  background-image: url("https://images.pexels.com/photos/850796/pexels-photo-850796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-  background-size: 600px;
-  background-position:center;
-  width: 450px;
-}
-
 .wrapper{
   border: 1px solid black;
   margin:auto;
@@ -46,14 +35,6 @@ form {
   background-color:white;
 }
 
-#initialBox{
-  width: 35%;
-  margin-top: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  border-style: solid;
-  border-width: 1px;
-}
 #inviteBox{
   width: 50%;
   margin: auto;
@@ -62,34 +43,7 @@ form {
   font-family: 'Lobster', cursive;
   font-size:1em;
 }
-#firstNamebox{
-  width:50%;
-  margin:auto;
-  border-style: solid;
-  border-width: 1px;
-}
 
-#lastNamebox{
-  width:30%;
-  margin:auto;
-  border-style: solid;
-    border-width: 1px;
-}
-#dateBox{
-  margin:auto;
-  width: 20%;
-  border-style: solid;
-  border-width: 1px;
-  height:7%;
-}
-#locationBox{
-  margin:auto;
-  width:40%;
-  word-wrap: break-word;
-  height:7%;
-  border-style: solid;
-  border-width: 1px;
-}
 
 #Summertag{
   text-align:center;
@@ -122,6 +76,18 @@ form {
   margin-bottom: 10px;
 }
 
+
+#plannerContainerdefault{
+  text-align:center;
+  border-style: solid;
+  border-width: 5px;
+  height: 125%;
+  background-image: url("https://images.pexels.com/photos/850796/pexels-photo-850796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: 600px;
+  background-position:center;
+  width: 450px;
+}
+
 #plannerContainerfloral{
   text-align:center;
   border-style: solid;
@@ -139,7 +105,7 @@ form {
   border-width: 5px;
   height: 125%;
   background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/01/9c/f4/d5/sofitel-moorea-ia-ora.jpg");
-  background-size: 800px;
+  background-size: 900px;
   background-position:center;
   width: 450px;
 }
@@ -150,12 +116,32 @@ form {
   border-width: 5px;
   height: 125%;
   background-image: url("https://s3.envato.com/files/239486155/Image%20Preview.jpg");
-  background-size: 900px;
+  background-size: 1000px;
   background-position:center;
   width: 450px;
 }
 
-#initialBoxfloral{
+#plannerContainercustom{
+  text-align:center;
+  border-style: solid;
+  border-width: 5px;
+  height: 125%;
+  background-image: url("https://images.pexels.com/photos/850796/pexels-photo-850796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: 600px;
+  background-position:center;
+  width: 450px;
+}
+
+#plannerContainerdefault > #initialBox {
+  width: 35%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#plannerContainerfloral > #initialBox {
   width: 35%;
   margin-top: 180px;
   margin-right: auto;
@@ -163,100 +149,192 @@ form {
   visibility:hidden;
 }
 
-#firstNameboxFloral{
-  width:50%;
-  margin:auto;
+#plannerContainersummer > #initialBox {
+  width: 35%;
+  margin-top: 180px;
+  margin-right: auto;
+  margin-left: auto;
   color: white;
 }
 
-#lastNameboxFloral{
-  width:30%;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: -10px;
-  color: white;
-}
-#dateBoxfloral{
-  margin-left:auto;
-  margin-right:auto;
-  width: 20%;
-  height:7%;
-  color:white;
-}
-#locationBoxfloral{
-  margin:auto;
-  width:35%;
-  word-wrap: break-word;
-  height:7%;
-  color:white;
-}
-
-#initialBoxsummer{
+#plannerContainerheartu > #initialBox{
   width: 35%;
   margin-top: 180px;
   margin-right: auto;
   margin-left: auto;
 }
 
-#firstNameboxSummer{
-  width:50%;
-  margin:auto;
-  color: white;
-}
-
-#lastNameboxSummer{
-  width:30%;
-  margin-left:auto;
-  margin-right:auto;
-  margin-top: -10px;
-  color: white;
-}
-#dateBoxsummer{
-  margin-left:auto;
-  margin-right:auto;
-  width: 20%;
-  height:7%;
-  color:white;
-}
-#locationBoxsummer{
-  margin:auto;
-  width:35%;
-  word-wrap: break-word;
-  height:7%;
-  color:white;
-}
-
-#initialBoxheartu{
+#plannerContainercustom >#initialBox{
   width: 35%;
-  margin-top: 180px;
+  margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
+  border-style: solid;
+  border-width: 1px;
 }
 
-#firstNameboxHeartu{
+#plannerContainerdefault > #firstNamebox{
+    width:50%;
+    margin:auto;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#plannerContainerfloral > #firstNamebox{
   width:50%;
   margin:auto;
   color: white;
 }
 
-#lastNameboxHeartu{
+#plannerContainersummer > #firstNamebox{
+  width:50%;
+  margin:auto;
+  color: white;
+}
+
+#plannerContainerheartu > #firstNamebox{
+  width:50%;
+  margin:auto;
+}
+
+#plannerContainercustom > #firstNamebox{
+  width:50%;
+  margin:auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#plannerContainerdefault > #lastNamebox{
+    width:30%;
+    margin:auto;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#plannerContainerfloral > #lastNamebox{
   width:30%;
   margin-left:auto;
   margin-right:auto;
   margin-top: -10px;
   color: white;
 }
-#dateBoxheartu{
+
+#plannerContainersummer > #lastNamebox{
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: -10px;
+  color: white;
+}
+
+#plannerContainerheartu > #lastNamebox{
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: -10px;
+}
+
+#plannerContainercustom > #lastNamebox{
+  width:30%;
+  margin:auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#plannerContainerdefault > #dateBox{
+    margin:auto;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    height:7%;
+}
+
+#plannerContainerfloral > #dateBox{
   margin-left:auto;
   margin-right:auto;
   width: 20%;
   height:7%;
   color:white;
 }
-#locationBoxheartu{
+
+#plannerContainersummer > #dateBox{
+  margin-left:auto;
+  margin-right:auto;
+  width: 20%;
+  height:7%;
+  color:white;
+}
+
+#plannerContainerheartu > #dateBox{
+  margin-left:auto;
+  margin-right:auto;
+  width: 20%;
+  height:7%;
+}
+
+#plannerContainercustom > #dateBox{
+  margin:auto;
+  width: 20%;
+  border-style: solid;
+  border-width: 1px;
+  height:7%;
+}
+
+#plannerContainerdefault > #locationBox{
+    margin:auto;
+    width:40%;
+    word-wrap: break-word;
+    height:7%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#plannerContainerfloral > #locationBox{
   margin:auto;
   width:35%;
   word-wrap: break-word;
   height:7%;
   color:white;
+}
+
+#plannerContainersummer > #locationBox{
+  margin:auto;
+  width:35%;
+  word-wrap: break-word;
+  height:7%;
+  color:white;
+}
+
+#plannerContainerheartu > #locationBox{
+  margin:auto;
+  width:35%;
+  word-wrap: break-word;
+  height:7%;
+}
+
+#plannerContainercustom > #locationBox{
+  margin:auto;
+  width:40%;
+  word-wrap: break-word;
+  height:7%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#imglink{
+  visibility:hidden;
+  float: left;
+  clear: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#theSurprise{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-image: url(https://78.media.tumblr.com/ddf6283cc4f8c08f7d7cdeb673d97bbe/tumblr_p1pffcwfdb1wkl0jto1_500.gif);
+  background-size: 50px;
+  visibility:hidden;
 }

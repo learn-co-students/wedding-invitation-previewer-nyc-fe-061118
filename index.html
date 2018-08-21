@@ -13,6 +13,7 @@
 
 <body>
   <div class = "wrapper">
+  <div id ="theSurprise"></div>
   <h1 id = "titleDefault"> Wedding Invitation Planner! </h1>
   <div class = "grid-container">
   <div id = "sheetDefault">
@@ -36,10 +37,14 @@
         <div id="Custom">
            <button onclick="Customimg()">Custom Image (WIP)</button>
         </div>
+        <div id = "imglink">
+          <input type="text" id = "imglinkbox" placeholder = "Image link goes here.">
+          <button onclick = "Surprise()">Submit</button>
+        </div>
       </div>
   </div>
 
-  <div id = "plannerDefaultcontainer" class = "plannerChange">
+  <div id = "plannerContainerdefault" class = "plannerChange">
     <div id = "initialBox">
       <p id = "initials"></p>
     </div>
