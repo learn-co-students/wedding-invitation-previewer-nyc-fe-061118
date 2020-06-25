@@ -1,0 +1,340 @@
+body{
+  background-color: black;
+}
+h1{
+  text-align:center;
+  text-decoration:underline;
+  letter-spacing: 5px;
+  font-family: 'Tangerine', serif;
+
+}
+.grid-container {
+  display:grid;
+  grid-template-columns: auto auto;
+  }
+
+form {
+  text-align: center;
+  font-size: 20px;
+  margin-top:45px;
+  margin-bottom: 45px;
+}
+
+#sheetDefault{
+  border-style: solid;
+  border-width: 1px;
+  width:50%;
+  margin:auto;
+}
+
+.wrapper{
+  border: 1px solid black;
+  margin:auto;
+  width: 1100px;
+  height: 700px;
+  background-color:white;
+}
+
+#inviteBox{
+  width: 50%;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  font-family: 'Lobster', cursive;
+  font-size:1em;
+}
+
+
+#Summertag{
+  text-align:center;
+  float:left;
+  margin-left: 10px;
+  width: 45%;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+#Flowertag{
+  text-align:center;
+  float:left;
+  width:45%;
+  text-decoration:underline;
+  margin-bottom: 10px;
+}
+#Hearts{
+  text-align:center;
+  float: left;
+  width:45%;
+  margin-left:10px;
+  text-decoration:underline;
+  margin-bottom: 10px;
+}
+#Custom{
+  text-align:center;
+  float: left;
+  width:45%;
+  text-decoration:underline;
+  margin-bottom: 10px;
+}
+
+
+#plannerContainerdefault{
+  text-align:center;
+  border-style: solid;
+  border-width: 5px;
+  height: 125%;
+  background-image: url("https://images.pexels.com/photos/850796/pexels-photo-850796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: 600px;
+  background-position:center;
+  width: 450px;
+}
+
+#plannerContainerfloral{
+  text-align:center;
+  border-style: solid;
+  border-width: 5px;
+  height: 125%;
+  background-image: url("https://images.pexels.com/photos/255441/pexels-photo-255441.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: 700px;
+  background-position:center;
+  width: 450px;
+}
+
+#plannerContainersummer{
+  text-align:center;
+  border-style: solid;
+  border-width: 5px;
+  height: 125%;
+  background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/01/9c/f4/d5/sofitel-moorea-ia-ora.jpg");
+  background-size: 900px;
+  background-position:center;
+  width: 450px;
+}
+
+#plannerContainerheartu{
+  text-align:center;
+  border-style: solid;
+  border-width: 5px;
+  height: 125%;
+  background-image: url("https://s3.envato.com/files/239486155/Image%20Preview.jpg");
+  background-size: 1000px;
+  background-position:center;
+  width: 450px;
+}
+
+#plannerContainercustom{
+  text-align:center;
+  border-style: solid;
+  border-width: 5px;
+  height: 125%;
+  background-image: url("https://images.pexels.com/photos/850796/pexels-photo-850796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: 600px;
+  background-position:center;
+  width: 450px;
+}
+
+#plannerContainerdefault > #initialBox {
+  width: 35%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#plannerContainerfloral > #initialBox {
+  width: 35%;
+  margin-top: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  visibility:hidden;
+}
+
+#plannerContainersummer > #initialBox {
+  width: 35%;
+  margin-top: 180px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+#plannerContainerheartu > #initialBox{
+  width: 35%;
+  margin-top: 180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#plannerContainercustom >#initialBox{
+  width: 35%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#plannerContainerdefault > #firstNamebox{
+    width:50%;
+    margin:auto;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#plannerContainerfloral > #firstNamebox{
+  width:50%;
+  margin:auto;
+  color: white;
+}
+
+#plannerContainersummer > #firstNamebox{
+  width:50%;
+  margin:auto;
+  color: white;
+}
+
+#plannerContainerheartu > #firstNamebox{
+  width:50%;
+  margin:auto;
+}
+
+#plannerContainercustom > #firstNamebox{
+  width:50%;
+  margin:auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#plannerContainerdefault > #lastNamebox{
+    width:30%;
+    margin:auto;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#plannerContainerfloral > #lastNamebox{
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: -10px;
+  color: white;
+}
+
+#plannerContainersummer > #lastNamebox{
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: -10px;
+  color: white;
+}
+
+#plannerContainerheartu > #lastNamebox{
+  width:30%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: -10px;
+}
+
+#plannerContainercustom > #lastNamebox{
+  width:30%;
+  margin:auto;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#plannerContainerdefault > #dateBox{
+    margin:auto;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    height:7%;
+}
+
+#plannerContainerfloral > #dateBox{
+  margin-left:auto;
+  margin-right:auto;
+  width: 20%;
+  height:7%;
+  color:white;
+}
+
+#plannerContainersummer > #dateBox{
+  margin-left:auto;
+  margin-right:auto;
+  width: 20%;
+  height:7%;
+  color:white;
+}
+
+#plannerContainerheartu > #dateBox{
+  margin-left:auto;
+  margin-right:auto;
+  width: 20%;
+  height:7%;
+}
+
+#plannerContainercustom > #dateBox{
+  margin:auto;
+  width: 20%;
+  border-style: solid;
+  border-width: 1px;
+  height:7%;
+}
+
+#plannerContainerdefault > #locationBox{
+    margin:auto;
+    width:40%;
+    word-wrap: break-word;
+    height:7%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#plannerContainerfloral > #locationBox{
+  margin:auto;
+  width:35%;
+  word-wrap: break-word;
+  height:7%;
+  color:white;
+}
+
+#plannerContainersummer > #locationBox{
+  margin:auto;
+  width:35%;
+  word-wrap: break-word;
+  height:7%;
+  color:white;
+}
+
+#plannerContainerheartu > #locationBox{
+  margin:auto;
+  width:35%;
+  word-wrap: break-word;
+  height:7%;
+}
+
+#plannerContainercustom > #locationBox{
+  margin:auto;
+  width:40%;
+  word-wrap: break-word;
+  height:7%;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#imglink{
+  visibility:hidden;
+  float: left;
+  clear: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#theSurprise{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-image: url(https://78.media.tumblr.com/ddf6283cc4f8c08f7d7cdeb673d97bbe/tumblr_p1pffcwfdb1wkl0jto1_500.gif);
+  background-size: 50px;
+  visibility:hidden;
+}

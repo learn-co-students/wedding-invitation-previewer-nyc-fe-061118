@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang = "en">
+  <meta charset="UTF-8">
+  <meta name="description" content="Sample Wedding Planner Project">
+  <meta name="author" content="Jeffrey Jiang">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="wedding, invitation, planner, testing">
+  <link rel="stylesheet" type="text/css" href="planner.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Lobster|Dancing+Script">
+  <title>Wedding Invitation Planner</title>
+</head>
+
+<body>
+  <div class = "wrapper">
+  <div id ="theSurprise"></div>
+  <h1 id = "titleDefault"> Wedding Invitation Planner! </h1>
+  <div class = "grid-container">
+  <div id = "sheetDefault">
+    <form>
+    The Main Focus:<br> <input type="text" id="firstName" oninput="myFunction()"><br>
+    The Side Piece:<br> <input type="text" id="secondName" oninput="myFunction()"><br>
+    The Chosen Last Name:<br> <input type="text" id="lastName" oninput="myFunction()"><br>
+    Date:<br> <input type="text" id="date" placeholder="mm/dd/yyyy" oninput="myFunction()"><br>
+    Unification Location:<br> <input type="text" id="location" oninput="myFunction()"><br>
+    </form>
+    <div id="Options">
+        <div id="Summertag">
+           <button onclick="Summeresque()">Summeresque</button>
+        </div>
+        <div id="Flowertag">
+          <button onclick="Flowers()">Flowery Flowers</button>
+        </div>
+        <div id="Hearts">
+           <button onclick="Heartu()">Heart Explosion</button>
+        </div>
+        <div id="Custom">
+           <button onclick="Customimg()">Custom Image (WIP)</button>
+        </div>
+        <div id = "imglink">
+          <input type="text" id = "imglinkbox" placeholder = "Image link goes here.">
+          <button onclick = "Surprise()">Submit</button>
+        </div>
+      </div>
+  </div>
+
+  <div id = "plannerContainerdefault" class = "plannerChange">
+    <div id = "initialBox">
+      <p id = "initials"></p>
+    </div>
+    <div id="firstNamebox">
+      <p id = "firstSecondname"></p>
+    </div>
+
+    <div id="lastNamebox">
+      <p id = "lasName"></p>
+    </div>
+
+    <div id="dateBox">
+      <p id = "dateOf"></p>
+    </div>
+
+    <div id="locationBox">
+      <p id = "placeOf"></p>
+    </div>
+  </div>
+</div>
+</div>
+<script src="planner.js"></script>
+</body>
+
+</html>
